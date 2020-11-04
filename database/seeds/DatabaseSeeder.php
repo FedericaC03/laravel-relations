@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ComicsTableSeeder::class,
             AuthorsTableSeeder::class,
-        ])
+            AuthorInfoTableSeeder::class,
+        ]);
     }
 }
