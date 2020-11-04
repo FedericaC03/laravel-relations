@@ -19,8 +19,8 @@
             <th scope="row">{{$genre->id}}</th>
             <td>{{$genre->name}}</td>
             <td><a href=""><button type="button" class="btn btn-link">View</button></a> </td>
-            <td><a href="{{route("genres.edit")}}"><button type="button" class="btn btn-primary">Update</button></a></td>
-            <td><a href=""><button type="button" class="btn btn-danger">Delete</button></a></td>
+            {{-- <td><a href="{{route("genres.edit")}}"><button type="button" class="btn btn-primary">Update</button></a></td>
+            <td><a href=""><button type="button" class="btn btn-danger">Delete</button></a></td> --}}
         </tr>
       @endforeach
       

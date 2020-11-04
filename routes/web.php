@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::resource("Comics", "ComicController");
 Route::resource("Genres", "GenreController");
+Route::resource("Authors", "AuthorController");
